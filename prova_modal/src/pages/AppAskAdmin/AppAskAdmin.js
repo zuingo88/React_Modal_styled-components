@@ -8,7 +8,7 @@ import {
   ModalComment,
   ModalTextArea,
   FullButton
-} from "./AskInfo.style";
+} from "./AppAskAdmin.style";
 
 const AskInfo = () => {
   return (

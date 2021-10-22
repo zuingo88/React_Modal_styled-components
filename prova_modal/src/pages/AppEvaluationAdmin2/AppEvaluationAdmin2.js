@@ -9,7 +9,7 @@ import {
   ButtonsContainer,
   EmptyButton,
   FullButton
-} from "./Evaluate.style";
+} from "./AppEvaluationAdmin2.style";
 
 const Evaluate = () => {
   return (

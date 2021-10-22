@@ -17,7 +17,7 @@ export const BlurBg = styled.div`
 export const ModalContainer = styled.div`
   position: relative;
   width: 1046px;
-  height: 474px;
+  height: 623px;
   margin: 0;
   margin-top: 220px;
   padding: 0 24px;
@@ -80,7 +80,7 @@ export const ModalTitle = styled.h2`
 
 export const ModalExplanation = styled.div`
   width: 998px;
-  height: 250px;
+  /* height: 250px; */
   margin: 53px 24px 0;
 
   display: flex;
@@ -98,31 +98,36 @@ export const ModalExplanation = styled.div`
   }
 
   & span {
-    font-weight: 700;
+    text-transform: uppercase;
+    color: #DE1818;
+  }
+`
+
+export const ModalTextArea = styled.div`
+  width: 800px;
+  height: 200px;
+  margin-top: 144px;
+
+  background: #FBFBFB;
+  border: 1px solid #CACACA;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  & p {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #B3BAC0;
   }
 `
 
 export const ButtonsContainer = styled.div`
   margin: 0;
-  margin-bottom: 40px 0 39px 0;
-`
-
-export const EmptyRedButton = styled.button`
-  width: 140px;
-  height: 40px;
-  margin-right: 64px;
-
-  background: #FFE9E9;
-  border: 2px solid #FF7121;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 4px rgba(46, 198, 186, 0.25);
-  border-radius: 2px;
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #FF7121;
+  margin: 56px 0 37px 0;
 `
 
 export const EmptyButton = styled.button`
