@@ -16,10 +16,11 @@ export const BlurBg = styled.div`
 
 export const ModalContainer = styled.div`
   position: relative;
-  margin: 0;
   width: 1046px;
-  height: 432px;
+  height: 752px;
+  margin: 0;
   margin-top: 220px;
+  padding: 0 24px;
 
   background: #FFFFFF;
   border: 1px solid #2EC6BA;
@@ -64,88 +65,92 @@ export const CloseModal = styled.div`
 `
 
 export const ModalTitle = styled.h2`
+  width: 1046px;
   margin: 0;
   margin-top: 24px;
-  width: 1046px;
   text-align: center;
 
   font-weight: bold;
-  font-size: 32px;
+  font-size: 45px;
   line-height: 44px;
 
   color: #30B8AE;
 `
 
-export const WarningMessage = styled.div`
-  margin-top: 32px;
-
-  & p {
-    margin: 0;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
-    color: black;
-  }
-
-  & p:first-of-type {
-    text-transform: uppercase;
-    color: #E03737;
-  }
-`
-
-export const ChooseMessage = styled.div`
-  margin-top: 48px;
-
-  & p {
-    margin: 0;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-
-    color: #3D3D3D;
-  }
-
-  & h2 {
-    margin: 0;
-    margin-top: 24px;
-    width: 1046px;
-    text-align: center;
-
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 44px;
-
-    color: #09da60;
-  }
-`
-
-export const ButtonsContainer = styled.div`
-  margin: 0;
-  padding: 40px;
-`
-
-export const EmptyButton = styled.button`
-  width: 140px;
-  height: 40px;
-  margin-right: 64px;
-
-  background: #F7FDFE;
-  border: 2px solid #2EC6BA;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 4px rgba(46, 198, 186, 0.25);
-  border-radius: 2px;
-
+export const ModalSubtitle = styled.h3`
+  margin: 10px;
+  font-style: normal;
   font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #30B8AE;
+`
+
+export const InputField = styled.input`
+  width: 325px;
+  height: 48px;
+  margin-top: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #FBFBFB;
+  border: 1px solid #CACACA;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
+
   text-align: center;
-  color: #2EC6BA;
+
+  ::placeholder,
+  ::-webkit-input-placeholder,
+  :-ms-input-placeholder {
+    color: #B3BAC0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+`
+
+export const Captcha = styled.div`
+  width: 325px;
+  height: 81px;
+  margin-top: 24px;
+  left: 557px;
+  top: 519px;
+
+  background: rgba(196, 196, 196, 0.5);
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & h3 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #2EC6BA;
+  }
 `
 
 export const FullButton = styled.button`
   width: 140px;
   height: 40px;
+  margin: 64px 0 38px 0;
 
   background: #2EC6BA;
   border: 2px solid #2EC6BA;

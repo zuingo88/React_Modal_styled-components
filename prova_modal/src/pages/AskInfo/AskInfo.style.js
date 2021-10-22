@@ -16,10 +16,11 @@ export const BlurBg = styled.div`
 
 export const ModalContainer = styled.div`
   position: relative;
-  margin: 0;
   width: 1046px;
-  height: 432px;
+  height: 752px;
+  margin: 0;
   margin-top: 220px;
+  padding: 0 24px;
 
   background: #FFFFFF;
   border: 1px solid #2EC6BA;
@@ -64,9 +65,9 @@ export const CloseModal = styled.div`
 `
 
 export const ModalTitle = styled.h2`
+  width: 1046px;
   margin: 0;
   margin-top: 24px;
-  width: 1046px;
   text-align: center;
 
   font-weight: bold;
@@ -76,76 +77,62 @@ export const ModalTitle = styled.h2`
   color: #30B8AE;
 `
 
-export const WarningMessage = styled.div`
-  margin-top: 32px;
+export const ModalDescription = styled.p`
+  width: 100%;
+  margin-top: 53px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
 
-  & p {
-    margin: 0;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
-    color: black;
-  }
-
-  & p:first-of-type {
-    text-transform: uppercase;
-    color: #E03737;
-  }
+  color: #3D3D3D;
 `
 
-export const ChooseMessage = styled.div`
-  margin-top: 48px;
+export const ModalComment = styled.p`
+  margin-top: 24px;
+  padding: 10px;
+  font-style: normal; 
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  
+  color: #3D3D3D;
 
-  & p {
-    margin: 0;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-
-    color: #3D3D3D;
-  }
-
-  & h2 {
-    margin: 0;
-    margin-top: 24px;
-    width: 1046px;
-    text-align: center;
-
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 44px;
-
-    color: #09da60;
-  }
-`
-
-export const ButtonsContainer = styled.div`
-  margin: 0;
-  padding: 40px;
-`
-
-export const EmptyButton = styled.button`
-  width: 140px;
-  height: 40px;
-  margin-right: 64px;
-
-  background: #F7FDFE;
-  border: 2px solid #2EC6BA;
+  border: 1px solid #CACACA;
   box-sizing: border-box;
-  box-shadow: 0px 2px 4px rgba(46, 198, 186, 0.25);
-  border-radius: 2px;
+  border-radius: 8px;
+  
+  & span {
+    font-weight: 600;
+  }
+`
 
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #2EC6BA;
+export const ModalTextArea = styled.div`
+  width: 800px;
+  height: 200px;
+  margin-top: 54px;
+
+  background: #FBFBFB;
+  border: 1px solid #CACACA;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  & p {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #B3BAC0;
+  }
 `
 
 export const FullButton = styled.button`
   width: 140px;
   height: 40px;
+  margin: 32px 0 40px 0;
 
   background: #2EC6BA;
   border: 2px solid #2EC6BA;

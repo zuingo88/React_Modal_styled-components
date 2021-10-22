@@ -2,19 +2,21 @@ import React from "react";
 import {
   BlurBg,
   ModalContainer,
+  CloseModal,
   ModalTitle,
   WarningMessage,
   ChooseMessage,
   ButtonsContainer,
-  BackButton,
-  ConfirmButton
+  EmptyButton,
+  FullButton
 } from "./Evaluate.style";
 
 const Evaluate = () => {
   return (
     <BlurBg>
-
       <ModalContainer>
+        <CloseModal />
+
         <ModalTitle>
           Evaluate application
         </ModalTitle>
@@ -29,13 +31,10 @@ const Evaluate = () => {
           <h2>Feasible</h2>
         </ChooseMessage>
 
-        <ButtonsContainer>
-          <BackButton>
-            Back
-          </BackButton>
-          <ConfirmButton>
-            Confirm
-          </ConfirmButton>
+        <ButtonsContainer >
+          <EmptyButton>Back</EmptyButton>
+
+          <FullButton>Confirm</FullButton>
         </ButtonsContainer>
       </ModalContainer>
     </BlurBg>
