@@ -19,53 +19,50 @@ const AppEvaluation3 = () => {
       <ModalContainer>
         <CloseModal />
 
-        <ModalTitle>Evaluate application</ModalTitle>
+        <ModalTitle>Evaluate application after my question</ModalTitle>
 
-        <ModalDescription>Your question:</ModalDescription>
+        <ModalDescription style={{ marginTop: '24px' }}>Your question:</ModalDescription>
+      <ModalComment>
+        “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit?”
+      </ModalComment>
 
-        <ModalComment>
-          “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit?”
-        </ModalComment>
+      <ModalDescription>Question sent from the Supervisor to the Owner:</ModalDescription>
+      <ModalComment>
+        “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit?”
+      </ModalComment>
 
-        <ModalDescription>Question sent from the Supervisor to the Owner:</ModalDescription>
+      <ModalDescription style={{ color: '#30B8AE' }} >Owner reply:</ModalDescription>
+      <ModalComment>
+        “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit?”
+      </ModalComment>
 
-        <ModalComment>
-          “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit?”
-        </ModalComment>
+      <ModalUpload>Owner reply</ModalUpload>
 
-        <ModalDescription style={{ color: '#30B8AE' }} >Owner reply:</ModalDescription>
+      <ModalExplanation>
+        <p>
+          <span style={{ color: '#09da60' }}>Accept</span>
+          : if you think the fundraise has good quality and it is trustworthy and should go live;
+        </p>
 
-        <ModalComment>
-          “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit?”
-        </ModalComment>
+        <p>
+          <span style={{ color: '#E03737' }}>Reject</span>
+          : if you do not think the fundraise has quality and trustworthiness and so it should not go live;
+        </p>
 
-        <ModalUpload>Owner reply</ModalUpload>
+        <p>
+          <span style={{ textTransform: 'uppercase' }}>Note</span>
+          : once you evaluate a fundraise you cannot change your decision
+        </p>
+      </ModalExplanation>
 
-        <ModalExplanation>
-          <p>
-            <span style={{ color: '#09da60' }}>Accept</span>
-            : if you think the fundraise has good quality and it is trustworthy and should go live;
-          </p>
+      <ButtonsContainer>
+        <EmptyRedButton>Reject</EmptyRedButton>
 
-          <p>
-            <span style={{ color: '#E03737' }}>Reject</span>
-            : if you do not think the fundraise has quality and trustworthiness and so it should not go live;
-          </p>
+        <FullButton>Accept</FullButton>
+      </ButtonsContainer>
 
-          <p>
-            <span style={{ textTransform: 'uppercase' }}>Note</span>
-            : once you evaluate a fundraise you cannot change your decision
-          </p>
-        </ModalExplanation>
-
-        <ButtonsContainer>
-          <EmptyRedButton>Reject</EmptyRedButton>
-
-          <FullButton>Accept</FullButton>
-        </ButtonsContainer>
-
-      </ModalContainer>
-    </BlurBg>
+    </ModalContainer>
+    </BlurBg >
   )
 }
 

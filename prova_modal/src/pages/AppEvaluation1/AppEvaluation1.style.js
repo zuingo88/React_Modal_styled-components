@@ -72,7 +72,7 @@ export const ModalTitle = styled.h2`
   text-align: center;
 
   font-weight: bold;
-  font-size: 45px;
+  font-size: 32px;
   line-height: 44px;
 
   color: #30B8AE;

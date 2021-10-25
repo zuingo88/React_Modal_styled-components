@@ -41,6 +41,8 @@ export const CloseModal = styled.div`
   width: 32px;
   height: 32px;
   opacity: 0.3;
+  
+  cursor: pointer;
 
   &:before, 
   &:after {
@@ -71,8 +73,9 @@ export const ModalTitle = styled.h2`
   margin-top: 24px;
   text-align: center;
 
+  font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 32px;
   line-height: 44px;
 
   color: #30B8AE;
@@ -81,13 +84,17 @@ export const ModalTitle = styled.h2`
 export const ModalDescription = styled.p`
   /* all: unset; */
   width: 100%;
-  margin-top: 24px;
+  margin-top: 22px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
 
   color: #3D3D3D;
+
+  /* &::first-of-type {
+    margin-top: 24px;
+  } */
 `
 
 export const ModalComment = styled.p`
@@ -128,6 +135,8 @@ line-height: 25px;
 text-align: center;
 
 color: #3D3D3D;
+
+cursor: pointer;
 `
 
 export const ModalExplanation = styled.div`

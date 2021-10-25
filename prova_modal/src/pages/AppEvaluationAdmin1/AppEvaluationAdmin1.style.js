@@ -42,6 +42,8 @@ export const CloseModal = styled.div`
   height: 32px;
   opacity: 0.3;
 
+  cursor: pointer;
+
   &:before, 
   &:after {
     position: absolute;
@@ -71,8 +73,9 @@ export const ModalTitle = styled.h2`
   margin-top: 24px;
   text-align: center;
 
+  font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 32px;
   line-height: 44px;
 
   color: #30B8AE;
