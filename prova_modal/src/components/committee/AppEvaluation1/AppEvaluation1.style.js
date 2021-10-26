@@ -104,8 +104,8 @@ export const ModalExplanation = styled.div`
 `
 
 export const ButtonsContainer = styled.div`
-  margin: 0;
-  margin-bottom: 40px 0 39px 0;
+  /* margin: 0; */
+  margin: 40px 0 39px 0;
 `
 
 export const EmptyRedButton = styled.button`
