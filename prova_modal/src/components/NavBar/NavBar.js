@@ -1,53 +1,51 @@
 import React from 'react';
+import logo from '../../logo.png'
 import { Link } from 'react-router-dom';
-import { NavLink } from './NavBar.style';
+import {
+  NavLink,
+  Navbar,
+  Logo,
+  NavList,
+  NavItem
+} from './NavBar.style';
 
 const NavBar = () => {
   return (
-    <nav style={{ position: "absolute", zIndex: '999', fontSize: '20px' }}>
-      <ul>
-        <li>
-          <NavLink to='/'>Home</NavLink>
-        </li>
-        <li>
+    <Navbar style={{ fontSize: '20px' }}>
+      <NavLink to='/'>
+        <Logo src={logo} alt="logo" />
+      </NavLink>
+
+      <NavList>
+        <NavItem>
           <NavLink to='/ae1'>AppEva1</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/ae2'>AppEva2</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/ae3'>AppEva3</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/aea1'>AppEvaAdm1</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/aea2'>AppEvaAdm2</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/login'>Login</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/aaa'>AppAskAdm</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/indeclaration'>InDeclaration</NavLink>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <NavLink to='/inprospectusaccept'>InProspectusAccept</NavLink>
-        </li>
-      </ul>
-
-
-
-
-
-
-
-
-
-
-    </nav>
+        </NavItem>
+      </NavList>
+    </Navbar>
   )
 }
 
