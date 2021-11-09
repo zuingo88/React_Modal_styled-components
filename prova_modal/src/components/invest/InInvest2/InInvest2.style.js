@@ -36,9 +36,9 @@ export const ModalContainer = styled.div`
 export const CloseModal = styled.div`
   position: absolute;
   right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
+  top: 16px;
+  width: 16px;
+  height: 16px;
   opacity: 0.3;
 
   cursor: pointer;
@@ -67,20 +67,7 @@ export const CloseModal = styled.div`
 `
 
 export const ModalTitle = styled.h2`
-  /* width: 1046px;
-  margin: 0;
-  margin-top: 24px;
-  text-align: center;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-
-  color: #30B8AE; */
-
   margin-top: 16px;
-  /* font-family: Nunito; */
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
