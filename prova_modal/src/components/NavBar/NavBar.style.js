@@ -41,7 +41,7 @@ export const NavList = styled.ul`
 export const NavItem = styled.li`
   margin: 3px;
   padding: 5px;
-  
+
   border-right: solid 2px grey;
   border-bottom: solid 1px grey;
   border-radius: 3px;

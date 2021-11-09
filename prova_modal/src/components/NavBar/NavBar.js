@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo.png'
+import logo from '../../logo.png';
 import { Link } from 'react-router-dom';
 import {
   NavLink,
@@ -43,6 +43,9 @@ const NavBar = () => {
         </NavItem>
         <NavItem>
           <NavLink to='/inprospectusaccept'>InProspectusAccept</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to='/ininvest2'>InInvest2</NavLink>
         </NavItem>
       </NavList>
     </Navbar>
