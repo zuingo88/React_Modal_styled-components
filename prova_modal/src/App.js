@@ -16,6 +16,7 @@ import InDeclaration from './components/invest/InDeclaration/InDeclaration';
 import InProspectusAccept from './components/invest/InProspectusAccept/InProspectusAccept';
 import InInvest2 from "./components/invest/InInvest2/InInvest2";
 import InInvest6 from "./components/invest/InInvest6/InInvest6";
+import InInvest7 from "./components/invest/InInvest7/InInvest7";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path='/inprospectusaccept' exact component={InProspectusAccept} />
             <Route path='/ininvest2' exact component={InInvest2} />
             <Route path='/ininvest6' exact component={InInvest6} />
+            <Route path='/ininvest7' exact component={InInvest7} />
           </Switch>
         </div>
       </Router>

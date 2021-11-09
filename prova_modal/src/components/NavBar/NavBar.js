@@ -50,6 +50,9 @@ const NavBar = () => {
         <NavItem>
           <NavLink to='/ininvest6'>InInvest6</NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink to='/ininvest7'>InInvest7</NavLink>
+        </NavItem>
       </NavList>
     </Navbar>
   )
