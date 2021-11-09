@@ -47,6 +47,9 @@ const NavBar = () => {
         <NavItem>
           <NavLink to='/ininvest2'>InInvest2</NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink to='/ininvest6'>InInvest6</NavLink>
+        </NavItem>
       </NavList>
     </Navbar>
   )

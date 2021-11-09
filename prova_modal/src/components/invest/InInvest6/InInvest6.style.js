@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const BlurBg = styled.div`
   position: absolute;
@@ -16,8 +16,8 @@ export const BlurBg = styled.div`
 
 export const ModalContainer = styled.div`
   position: relative;
-  width: 472px;
-  height: 216px;
+  width: 800px;
+  height: 460px;
   margin: 0;
   margin-top: 220px;
   padding: 0 24px;
@@ -35,10 +35,10 @@ export const ModalContainer = styled.div`
 
 export const CloseModal = styled.div`
   position: absolute;
-  right: 32px;
-  top: 16px;
-  width: 16px;
-  height: 16px;
+  right: 34px;
+  top: 26px;
+  width: 20px;
+  height: 20px;
   opacity: 0.3;
 
   cursor: pointer;
@@ -67,22 +67,22 @@ export const CloseModal = styled.div`
 `
 
 export const ModalTitle = styled.h2`
-  margin-top: 16px;
+  margin-top: 24px;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 32px;
+  line-height: 44px;
 
   color: #30B8AE;
 
-  align-self: flex-start;
+  align-self: center;
 `
 
 export const GreenContainer = styled.div`
-  margin-top: 8px;
-  padding: 16px 22px;
-  width: 440px;
-  height: 87px;
+  margin-top: 32px;
+  padding: 24px 50px;
+  width: 600px;
+  height: 320px;
 
   background: #F7FEFB;
   border: 1px solid #B5FFDF;
@@ -90,7 +90,35 @@ export const GreenContainer = styled.div`
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
+  align-items: flex-start;
+`
+
+export const State = styled.p`
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #3D3D3D;
+
+  display: flex;
+  align-items: center;
+`
+
+export const Quantity = styled.p`
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #3D3D3D;
 `
 
 export const ExportAddress = styled.p`
@@ -105,11 +133,12 @@ export const ExportAddress = styled.p`
   color: #3D3D3D;
 `
 
-export const WalletLink =  styled.a`
+export const WalletLink = styled.a`
+  margin-top: 8px;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
 
   text-align: center;
   text-decoration-line: underline;
@@ -118,23 +147,4 @@ export const WalletLink =  styled.a`
 
   display: flex;
   align-items: center;
-`
-
-export const EmptyButton = styled.button`
-  margin-top: 16px;
-  width: 140px;
-  height: 40px;
-  /* margin-rightEmptyButton: 64px; */
-
-  background: #F7FDFE;
-  border: 2px solid #2EC6BA;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 4px rgba(46, 198, 186, 0.25);
-  border-radius: 2px;
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #E03737;
 `

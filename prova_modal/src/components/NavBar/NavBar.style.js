@@ -11,8 +11,9 @@ export const NavLink = styled(Link)`
 `
 
 export const Navbar = styled.nav`
+  padding: 5px;
   width: 100%;
-  height: 120px;
+  min-height: 120px;
   position: fixed;
   top: 0;
 
